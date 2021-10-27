@@ -419,7 +419,7 @@ class GoogleDriveHelper:
                     urls = f'{INDEX_URL}/{url_path}?a=view'
                     if SHORTENER is not None and SHORTENER_API is not None:
                         siurl = short_url(url)
-                        buttons.buildbutton("⚡ Index Link", siurl)
+                        buttons.buildbutton("Index Link", siurl)
                         if VIEW_LINK:
                             siurls = short_url(urls)
                             buttons.buildbutton("View Link", siurls)

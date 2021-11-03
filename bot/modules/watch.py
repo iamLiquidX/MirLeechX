@@ -53,7 +53,7 @@ def watch(update, context):
     _watch(context.bot, update)
 
 def watchZip(update, context):
-    _watch(context.bot, update, True, True)
+    _watch(context.bot, update, True)
 
 def leechWatch(update, context):
     _watch(context.bot, update, isLeech=True)

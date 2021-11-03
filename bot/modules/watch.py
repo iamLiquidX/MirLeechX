@@ -59,7 +59,7 @@ def leechWatch(update, context):
     _watch(context.bot, update, isLeech=True)
 
 def leechWatchZip(update, context):
-    _watch(context.bot, update, True, True, True)
+    _watch(context.bot, update, True, True)
 
 watch_handler = CommandHandler(BotCommands.WatchCommand, watch,
                                 filters=CustomFilters.authorized_chat | CustomFilters.authorized_user, run_async=True)

@@ -183,8 +183,8 @@ Three buttons are already added including Drive Link, Index Link, and View Link,
 
 ```
 mirror - Start mirroring
-zipmirror - Start mirroring and upload as .zip
-unzipmirror - Extract files
+zip - Start mirroring and upload as .zip
+unzip - Extract files
 qbmirror - Start mirroring using qBittorrent
 qbzipmirror - Start mirroring and upload as .zip using qb
 qbunzipmirror - Extract files using qBittorrent

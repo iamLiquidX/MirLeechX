@@ -1,4 +1,4 @@
-FROM iamliquidx/mirleechxsdk:21e1a2aa3057d82002a9a1962e14cd992a6f6d6a
+FROM iamliquidx/mirleechxsdk:a8ce33bccdde0806fbd0541d5faf33e63a572582
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
